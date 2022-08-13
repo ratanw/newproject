@@ -12,7 +12,7 @@ Resources:
         NetworkConfiguration:
           AwsvpcConfiguration:
             Subnets: ["subnet-1234abcd","subnet-5678abcd"]
-            SecurityGroups: ["sg-12345678"]
+            SecurityGroups: ["sg-123456789"]
             AssignPublicIp: "ENABLED"
         CapacityProviderStrategy:
           - Base: 1
